@@ -183,7 +183,7 @@ function priceChange(req, res) {
         return res.redirect('/');
     }
     // Render the price page (Managers only)
-    return res.render('price-change', { title: 'Price Change' });
+    return res.render('price-change', { title: 'Price me Change' });
 }
 
 function orderStock(req, res) {
